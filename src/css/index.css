@@ -1,0 +1,171 @@
+.nav {
+    background-color: rgb(84, 92, 100);
+    color: #fff;
+}
+
+.nav .nav-item {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.nav .nav-item a {
+    color: inherit;
+    display: inline-block;
+    padding: 20px;
+}
+
+.nav .nav-item:hover {
+    background-color: rgb(67, 74, 80);
+}
+
+.main {
+    padding: 10px;
+}
+
+.dish {
+    border: 2px solid rgba(0, 0, 0, .4);
+    margin-bottom: 10px;
+}
+
+.dish .picture {
+    vertical-align: middle;
+}
+
+.dish .operate-box {
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.dish .detail {
+    padding: 10px 10px 0 10px;
+    ;
+}
+
+.dish .detail .name {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.dish .detail .description {
+    padding-top: 10px;
+    opacity: .7;
+}
+
+.cart-trigger {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #eee;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.shopping-cart {
+    position: fixed;
+    background: #fff;
+    bottom: 0px;
+    left: 10px;
+    right: 10px;
+    border: 2px solid rgba(0, 0, 0, .4);
+    padding: 10px;
+}
+
+.shopping-cart .close:after {
+    content: 'x';
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+
+.shopping-cart .item {
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.el-button {
+    border: 1px solid #dcdfe6;
+    background: #fff;
+    display: inline-block;
+    outline: none;
+    line-height: 1;
+    cursor: pointer;
+    white-space: nowrap;
+    text-align: center;
+    padding: 12px 20px;
+    border-radius: 4px;
+}
+
+.el-input-number {
+    display: inline-block;
+}
+
+.el-input-number input {
+    text-align: center;
+}
+
+.el-input-number .button-decrease {
+    border-radius: 4px 0 0 4px;
+    border-right: 1px solid #dcdfe6;
+    line-height: 0.7rem;
+}
+
+.el-input-number .button-increase {
+    border-radius: 0 4px 4px 0;
+    border-left: 1px solid #dcdfe6;
+    line-height: 0.7rem;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tbody tr:hover {
+    background: rgba(0, 0, 0, .05);
+}
+
+td,
+th {
+    padding: 10px;
+}
+
+th {
+    border-bottom: 2px solid rgba(0, 0, 0, .1);
+}
+
+td {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+td img {
+    max-width: 100px;
+}
+
+td .el-button {
+    margin-left: 5px;
+    padding: 7px 15px;
+}
+
+.input-wrap {
+    margin-bottom: 10px;
+}
+
+.input-wrap label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login {
+    max-width: 500px;
+    margin: 0 auto;
+}
